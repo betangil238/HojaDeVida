@@ -1,0 +1,172 @@
+body {
+    background-color:#F5F7FA ;
+    font-family: 'montserrat','arial'; 
+}  
+li{
+   line-height: 24px;     
+}
+.profesion{
+    font-size: 14px;
+    font-weight: 700;
+}
+.descripcion{
+    margin-bottom: 40px;
+
+}
+.contenedor-proyecto{
+    width: 1200px;
+  margin: 40px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* Informacion lateral */
+.lateral-izquierdo{
+    background-color: #1E2939;
+    padding: 40px 0;
+}
+.titulo-izquierda{
+    color: white;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 50px;
+}
+.contactos, .tech-skills,.soft-skills{
+    margin-left: 40px;
+}
+/* Seccion contactos */
+.tipo-contacto{
+
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 5px;
+    color: white;
+}
+.contacto-input{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: RGB(177,177,177);
+}
+/* seccion listas */
+.lista-lateral{
+    padding-left: 17px;
+}
+.lista-lateral >li {
+    color: #FB6D3A;
+}
+.lista-lateral >li>span {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* EDICION DE PANEL PRINCIPAL */
+/* ////////////////////////// */
+.contenedor-principal{
+    padding: 100px 88px ;
+}
+.nombre{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.texto-descripcion{
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.titulos-ppal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+/* SECCION PROYECTOS */
+.lista-proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+.enlaces{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.puntos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    letter-spacing: 2px;
+}
+/* TRABAJO SECCION */
+.titulos-trabajo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+.titulos-trabajo >span{
+    color: #FB6D3A;
+}
+.fechas-trabajo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.lista-trabajo{
+    padding-left: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* UNIVERSIDAD/ESTUDIOS */
+.titulo-universidad{
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px ;
+    margin-top: 0 ;
+}
+.fecha-universidad{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.profesion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 8px 0 ;
+}
